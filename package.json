@@ -1,6 +1,6 @@
 {
-    "name": "genesis-test",
-    "displayName": "genesis-test",
+    "name": "design-token-test",
+    "displayName": "design-token-test",
     "description": "jsx highlighting for design tokens",
     "version": "0.0.1",
     "engines": {

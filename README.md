@@ -1,6 +1,6 @@
-# genesis-test README
+# design-token-test README
 
-This is the README for your extension "genesis-test". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "test design token name". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
