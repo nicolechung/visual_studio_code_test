@@ -10,17 +10,18 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "jsx",
-            "aliases": ["jsx", "jsx"],
-            "extensions": [".js",".jsx",".ts",".tsx"],
-            "configuration": "./language-configuration.json"
-        }],
         "grammars": [{
-            "language": "javascriptreact",
+            "language": "jsx-attr",
             "scopeName": "source.jsx",
-            "path": "./syntaxes/jsx.tmLanguage.json",
-            "injectTo": ["source.js"]
+            "injectTo": ["source.js"],
+            "path": "./grammars/design-token.json",
+            "embeddedLanguages": {
+                "meta.tag.jsx": "jsx",
+                "meta.jsx.tag.termination": "jsx",
+                "JSXNested": "jsx",
+                "JSXAttrs": "jsx-attr",
+                "source.inside-js.css.styled": "styled-css"
+            }
         }]
     }
 }
